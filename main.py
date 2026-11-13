@@ -1,4 +1,5 @@
 print("=== GESTION DES TÂCHES ===")
+print("Bienvenue dans Gestion des tâches")
 list1=['1.Ajouter', '2.Afficher', '3.Rechercher', '0.Quitter']
 print(list1)
 taches=[]
