@@ -20,7 +20,7 @@ while ch!=0:
         else:
             print(taches)
     elif ch==3:
-        mot=input("Saisir un mot-cle : ")
+        mot=input("Saisir un mot-cle pour la recherche: ")
         trouve= False
         for i in range(len(taches)):
             if mot.lower() in taches[i].lower():
